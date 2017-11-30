@@ -1,9 +1,9 @@
 class Teacher < User
 
   attr_accessor :knowledge
-  
+
   def teach
-    @knowledge
+    @knowledge << self
   end
 
 end
