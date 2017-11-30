@@ -1,10 +1,13 @@
 class Teacher < User
 
-  attr_accessor :knowledge
+  attr_reader :knowledge
 
   def initialize
     @knowledge = []
   end
+
+  def knowledge=(knowledge)
+    @knowledge << knowledge
 
   def teach
     @knowledge << self
