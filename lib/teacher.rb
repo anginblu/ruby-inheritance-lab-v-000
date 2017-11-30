@@ -2,7 +2,7 @@ class Teacher < User
 
   attr_reader :knowledge
 
-  @@knowledge = p[]
+  @@knowledge = []
 
   def self.knowledge=(knowledge)
     @@knowledge = knowledge
