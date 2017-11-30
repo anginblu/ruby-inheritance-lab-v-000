@@ -11,7 +11,7 @@ class Teacher < User
   end
 
   def teach
-    @knowledge << self
+    @@knowledge << self
   end
 
 end
